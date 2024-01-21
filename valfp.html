@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBBING - VALORANT</title>
+    <link rel="stylesheet" href="valfp.css">
+    <link rel="shortcut icon" type="image/png" href="title_pics\logo.png">
+</head>
+<body>
+    <div class="non-res-navbar">
+        <!-- Navigation Bar -->
+        <header>
+            <div class="logo" style="margin-left: 10px; margin-right: -230px;" onclick="window.location.href='index.html'">Webbing</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <div class="dropdown" data-dropdown>
+                        <button class="link" data-dropdown-button>Games &#9662;</button>
+                        <div class="dropdown-menu information-grid">
+                            <div>
+                                <div class="dropdown-heading">
+                                    <p class="dd-heading val" style="font-family: 'Valorant', sans-serif;">vALORaNT</p>
+                                </div>
+                                <div class="dropdown-links">
+                                    <a href="valfp.html#intro" class="link-val" style="font-family:'Courier New', Courier, monospace;">&#9656; Introduction</a>
+                                    <a href="valfp.html#agent" class="link-val" style="font-family:'Courier New', Courier, monospace;">&#9656; Agents</a>
+                                    <a href="valfp.html#weapons" class="link-val" style="font-family:'Courier New', Courier, monospace;">&#9656; Weapons</a>
+                                    <a href="valfp.html#maps" class="link-val" style="font-family:'Courier New', Courier, monospace;">&#9656; Maps</a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dropdown-heading">
+                                    <p class="dd-heading phasmo" style="font-family: 'Phasmo', sans-serif;">PHASMOPHOBIA</p>
+                                </div>
+                                <div class="dropdown-links">
+                                    <a href="#" class="link-phasmo" style="font-family:'Courier New', Courier, monospace;">&#9656; Introduction</a>
+                                    <a href="#" class="link-phasmo" style="font-family: 'Courier New', Courier, monospace;">&#9656; Maps</a>
+                                    <a href="#" class="link-phasmo" style="font-family: 'Courier New', Courier, monospace;">&#9656; Entities</a>
+                                    <a href="#" class="link-phasmo" style="font-family: 'Courier New', Courier, monospace;">&#9656; Cursed Items</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <li><a href="shop.html">Products</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="btns" style="margin-right: 10px;">
+                <button id="loginBtn" style="background-color: #050115;">Log In</button>
+                <button id="signupBtn" style="background-color: #050115;">Sign Up</button>
+                <img src="cart.png">
+            </div>
+        </header>
+    </div>
+    
+
+    <!-- Responsive Navigation Bar -->
+    <div class="res-navbar">
+        <!-- Navigation Bar -->
+        <header>
+            <div class="logo" style="margin-left: 10px; margin-right: -230px;" onclick="window.location.href='index.html'">Webbing</div>
+            <nav>
+                <ul>
+                    <div class="dropdown" data-dropdown>
+                        <button class="link" data-dropdown-button>&#9776;</button>
+                        <div class="dropdown-menu information-grid">
+                            <div>
+                                <div class="dropdown-heading">
+                                    <p class="dd-heading menu" style="font-family: 'Courier New', Courier, monospace; font-weight: bold;">Menu</p>
+                                </div>
+                                <div class="dropdown-links">
+                                    <a href="#" class="link-menu">&#9656; Home</a>
+                                    <a href="#" class="link-menu">&#9656; Products</a>
+                                    <a href="#" class="link-menu">&#9656; Contact Us</a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dropdown-heading">
+                                    <p class="dd-heading game" style="font-family: 'Courier New', Courier, monospace; font-weight: bold;">Games</p>
+                                </div>
+                                <div class="dropdown-links">
+                                    <a href="#valfp.html" class="link-game" style="font-family: 'Valorant', sans-serif;">&#9656; vALORaNT</a>
+                                    <a href="#" class="link-game" style=" font-family: 'Phasmo', sans-serif;">&#9656; PHASMOPHOBIA</a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dropdown-heading">
+                                    <p class="dd-heading val" style="font-family: 'Valorant', sans-serif;">vALORaNT</p>
+                                </div>
+                                <div class="dropdown-links">
+                                    <a href="valfp.html#intro" class="link-val" style="font-family:'Courier New', Courier, monospace;">&#9656; Introduction</a>
+                                    <a href="valfp.html#agent" class="link-val" style="font-family:'Courier New', Courier, monospace;">&#9656; Agents</a>
+                                    <a href="valfp.html#weapons" class="link-val" style="font-family:'Courier New', Courier, monospace;">&#9656; Weapons</a>
+                                    <a href="valfp.html#maps" class="link-val" style="font-family:'Courier New', Courier, monospace;">&#9656; Maps</a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dropdown-heading">
+                                    <p class="dd-heading phasmo" style="font-family: 'Phasmo', sans-serif;">PHASMOPHOBIA</p>
+                                </div>
+                                <div class="dropdown-links">
+                                    <a href="#" class="link-phasmo" style="font-family:'Courier New', Courier, monospace;">&#9656; Introduction</a>
+                                    <a href="#" class="link-phasmo" style="font-family: 'Courier New', Courier, monospace;">&#9656; Maps</a>
+                                    <a href="#" class="link-phasmo" style="font-family: 'Courier New', Courier, monospace;">&#9656; Entities</a>
+                                    <a href="#" class="link-phasmo" style="font-family: 'Courier New', Courier, monospace;">&#9656; Cursed Items</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </ul>
+            </nav>
+            <div class="btns">
+                <button id="loginBtn" style="background-color: #050115;">Log In</button>
+                <button id="signupBtn" style="background-color: #050115;">Sign Up</button>
+                <img src="cart.png">
+            </div>
+        </header>
+    </div>
+
+    <!-- Container 1 -->
+    <p class="container1-logo">vALORaNT</p>
+    <img src="BG\bg7.jpg" alt="Background Picture" style="width: 100%;">
+    <!-- Container 2 -->
+    <span id="intro"></span>
+    <div class="container2">
+        <h1>vALORaNT</h1>
+        <div class="container2-text">
+            <p class="c2-text"><span style="font-family:'Valorant', sans-serif; color: red;">&#8594; vALORaNT</span> is a competitive tactical first-person shooter (FPS) game developed and published by Riot Games. Released in 2020, the game combines tactic gunplay mechanics with unique character abilities in a team-based format.</p><br>
+                
+            <p class="c2-text"><span style="font-family:'Valorant', sans-serif; color: red;">&#8594; </span>Ten players are divided into two teams,<span style="color: red; font-weight: bold;"> Attackers</span> and <span style="color: red; font-weight: bold;">Defenders</span>, with the goal of winning the most rounds. In order to win a round, a team must eliminate the opposing team or complete their team-specific <span style="color: red; font-weight: bold;">spike</span> objective. First team who reaches<span style="color: red; font-weight: bold;"> 13</span> rounds, wins the game.</p>
+        </div>
+        <img src="BG\bg12.png" alt="Side Image" class="c2-img">
+    </div>
+    <!-- Container 3 -->
+    <div class="color-body" id="agent">
+        <h1 class="agenth1">Agents</h1>
+        <h3 class="agenth3"><span style="font-style: normal; font-family: 'Valorant'; color: #ff4655;">vAlORaNT</span> takes place on a near-future Earth and features a cast of characters known as agents. The agents are divided into <span style="color: red;">four roles</span>, each of which have their own unique <span style="color: red;">set of abilities</span> and to create tactical opportunities.</h3>
+        <!-- Duelist -->
+        <div class="duelist">
+            <div class="duel-text">
+                <h1 style="font-family: 'Tungsten';">DUELIST <img src="roles\rsz_duelist.png" alt="Duelist Role Icon" class="duel-img"></h1>
+                <p>Duelists are self-sufficient fraggers who their team expects, through abilities and skills, to get high frags and seek out engagements first. — <span style="font-style:italic; font-size: 80%;">Official Controller Description</span>.</p>
+            </div>
+        </div>
+        <!-- Duelist Slideshow -->
+        <div class="container3">
+            <div class="slideshow-container">
+                <div class="slides1 fade">
+                    <div class="numbertext">1 / 23</div>
+                    <img src="Characters\raze.png" alt="RAZE" style="width:50%" class="agent-img">
+                    <div class="text" style="color: #fec54d;">RAZE</div>
+                </div>
+                <div class="slides1 fade">
+                    <div class="numbertext">2 / 23</div>
+                    <img src="Characters\phoenix.png" alt="PHOENIX" style="width:50%" class="agent-img">
+                    <div class="text" style="color:	#ea7134;">PHOENIX</div>
+                </div>
+                <div class="slides1 fade">
+                    <div class="numbertext">3 / 23</div>
+                    <img src="Characters\jett.png" alt="JETT" style="width:50%" class="agent-img">
+                    <div class="text" style="color: #64abe0;">JETT</div>
+                </div>
+                <div class="slides1 fade">
+                    <div class="numbertext">4 / 23</div>
+                    <img src="Characters\reyna.png" alt="REYNA" style="width:39%" class="agent-img">
+                    <div class="text" style="color: #983586;">REYNA</div>
+                </div>
+                <div class="slides1 fade">
+                    <div class="numbertext">5 / 23</div>
+                    <img src="Characters\yoru.png" alt="YORU" style="width:40%" class="agent-img">
+                    <div class="text" style="color:	#4a60b6;" id="yoru">YORU</div>
+                </div>
+                <div class="slides1 fade">
+                    <div class="numbertext">6 / 23</div>
+                    <img src="Characters\neon.png" alt="NEON" style="width:50%" class="agent-img">
+                    <div class="text" style="color:	#6b30ff;">NEON</div>
+                </div>
+                <div class="slides1 fade">
+                    <div class="numbertext">7 / 23</div>
+                    <img src="Characters\iso.png" alt="ISO" style="width:43%" class="agent-img">
+                    <div class="text" style="color: #5138e9;">ISO</div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1,0)">&#60;</a>
+                <a class="next" onclick="plusSlides(1,0)">&#62;</a>
+            </div>
+        </div>
+    </div>
+        <!-- Controller -->
+        <div class="controller">
+            <div class="con-text">
+                <h1 style="font-family: 'Tungsten'; text-align: right;">CONTROLLER <img src="roles\rsz_controller.png" alt="Controller Role Icon" class="con-img"></h1>
+                <p>Controllers are experts in slicing up dangerous territory to set their team up for success. — <span style="font-style:italic; font-size: 80%;">Official Controller Description</span>.</p>
+            </div>
+        </div>
+        <!-- Controller Slideshow -->
+        <div class="container3">
+            <div class="slideshow-container">
+                <div class="slides2 fade">
+                    <div class="numbertext">8 / 23</div>
+                    <img src="Characters\brim.png" alt="BRIMSTONE" style="width:45%" class="agent-img">
+                    <div class="text" style="color: #f08a33;" id="brim">BRIMSTONE</div>
+                </div>
+                <div class="slides2 fade">
+                    <div class="numbertext">9 / 23</div>
+                    <img src="Characters\viper.png" alt="VIPER" style="width:50%" class="agent-img">
+                    <div class="text" style="color: #14D921;">VIPER</div>
+                </div>
+                <div class="slides2 fade">
+                    <div class="numbertext">10 / 23</div>
+                    <img src="Characters\omen.png" alt="OMEN" style="width:48%" class="agent-img">
+                    <div class="text" style="color: #766c92;">OMEN</div>
+                </div>
+                <div class="slides2 fade">
+                    <div class="numbertext">11 / 23</div>
+                    <img src="Characters\astra.png" alt="ASTRA" style="width:50%" class="agent-img">
+                    <div class="text" style="color:	#9440c1;">ASTRA</div>
+                </div>
+                <div class="slides2 fade">
+                    <div class="numbertext">12 / 23</div>
+                    <img src="Characters\harbor.png" alt="HARBOR" style="width:50%" class="agent-img">
+                    <div class="text" style="color: #204444;">HARBOR</div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1,1)">&#60;</a>
+                <a class="next" onclick="plusSlides(1,1)">&#62;</a>
+            </div>
+        </div>   
+    <div class="color-body">
+        <!-- Initiator -->
+        <div class="initiator">
+            <div class="init-text">
+                <h1 style="font-family: 'Tungsten';">INITIATOR <img src="roles\rsz_initiator.png" alt="Initiator Role Icon" class="init-img"></h1>
+                <p>Initiators challenge angles by setting up their team to enter contested ground and push defenders away. — <span style="font-style:italic; font-size: 80%;">Official Controller Description</span>.</p>
+            </div>
+        </div>
+        <!-- Initiator Slideshow -->
+        <div class="container3">
+            <div class="slideshow-container">
+                <div class="slides3 fade">
+                    <div class="numbertext">13 / 23</div>
+                    <img src="Characters\sova.png" alt="SOVA" style="width:50%" class="agent-img">
+                    <div class="text" style="color: #263ca1;">SOVA</div>
+                </div>
+                <div class="slides3 fade">
+                    <div class="numbertext">14 / 23</div>
+                    <img src="Characters\breach.png" alt="BREACH" style="width:50%" class="agent-img">
+                    <div class="text" style="color: #6c3318;">BREACH</div>
+                </div>
+                <div class="slides3 fade">
+                    <div class="numbertext">15 / 23</div>
+                    <img src="Characters\skye.png" alt="SKYE" style="width:50%" class="agent-img">
+                    <div class="text" style="color:	#00c36f;">SKYE</div>
+                </div>
+                <div class="slides3 fade">
+                    <div class="numbertext">16 / 23</div>
+                    <img src="Characters\kayo.png" alt="KAY/O" style="width:50%" class="agent-img">
+                    <div class="text" style="color:	#83b0c9;">KAY/O</div>
+                </div>   
+                <div class="slides3 fade">
+                    <div class="numbertext">17 / 23</div>
+                    <img src="Characters\fade.png" alt="FADE" style="width:50%" class="agent-img">
+                    <div class="text" style="color: #30354d;">FADE</div>
+                </div>   
+                <div class="slides3 fade">
+                    <div class="numbertext">18 / 23</div>
+                    <img src="Characters\gekko.png" alt="GEKKO" style="width:50%" class="agent-img">
+                    <div class="text" style="color:	#7f4db5;">GEKKO</div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1,2)">&#60;</a>
+                <a class="next" onclick="plusSlides(1,2)">&#62;</a>
+            </div>
+        </div>
+    </div>    
+        <!-- Sentinel -->
+        <div class="sentinel">
+            <div class="sen-text">
+                <h1 style="font-family: 'Tungsten'; text-align: right;">SENTINEL <img src="roles\rsz_sentinel.png" alt="Sentinel Role Icon" class="sen-img"></h1>
+                <p>Sentinels are defensive experts who can lock down areas and watch flanks, both on attacker and defender rounds. — <span style="font-style:italic; font-size: 80%;">Official Controller Description</span>.</p>
+            </div>
+        </div>
+        <!-- Sentinel Slideshow -->
+        <div class="container3">
+            <div class="slideshow-container">
+                <div class="slides4 fade">
+                    <div class="numbertext">19 / 23</div>
+                    <img src="Characters\sage.png" alt="SAGE" style="width:50%" class="agent-img">
+                    <div class="text" style="color: #16b199;">SAGE</div>
+                </div>
+                <div class="slides4 fade">
+                    <div class="numbertext">20 / 23</div>
+                    <img src="Characters\cypher.png" alt="CYPHER" style="width:50%" class="agent-img">
+                    <div class="text" style="color:	#b9b9b9;">CYPHER</div>
+                </div>
+                <div class="slides4 fade">
+                    <div class="numbertext">21 / 23</div>
+                    <img src="Characters\killjoy.png" alt="KILLJOY" style="width:50%" class="agent-img">
+                    <div class="text" style="color:	#fadc31;">KILLJOY</div>
+                </div>
+                <div class="slides4 fade">
+                    <div class="numbertext">22 / 23</div>
+                    <img src="Characters\chamber.png" alt="CHAMBER" style="width:50%" class="agent-img">
+                    <div class="text" style="color: #e14780;">CHAMBER</div>
+                </div>
+                <div class="slides4 fade">
+                    <div class="numbertext">23 / 23</div>
+                    <img src="Characters\deadlock.png" alt="DEADLOCK" style="width:50%" class="agent-img">
+                    <div class="text" style="color: #bc996c;">DEADLOCK</div>
+                </div> 
+                <a class="prev" onclick="plusSlides(-1,3)">&#60;</a>
+                <a class="next" onclick="plusSlides(1,3)">&#62;</a>
+                </div>
+            </div>
+        </div>
+        <!-- Script -->
+        <script src="valfp.js"></script>
+    </div>
+    <!-- Container 4 -->
+    <div class="color-body" id="weapons">
+        <h1 class="weaponsh1">wEAPONS</h1>
+        <h3 class="weaponsh3"><span style="font-style: normal; font-family: 'Valorant', sans-serif; color: #ff4655;">vALORaNT </span>features 17 guns and 1 melee, encompassing 7 types of weapons.</h3>
+        <div>
+            <!-- SIDEARMS Table -->
+            <table>
+                <tr>
+                    <th scope="row" style="font-family: 'Tungsten', sans-serif; font-size: 400%;">SIDEARMS</th>
+                    <td>
+                        <img src="Weapons\sidearms\classic.png" alt="CLASSIC" class="sidearm classic">
+                    </td>
+                    <td>
+                        <img src="Weapons\sidearms\shorty.png" alt="SHORTY" class="gun shorty">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="Weapons\sidearms\frenzy.png" alt="FRENZY" class="gun frenzy">
+                    </td>
+                    <td>
+                        <img src="Weapons\sidearms\ghost.png" alt="GHOST" class="gun ghost">
+                    </td>
+                    <td>
+                        <img src="Weapons\sidearms\sheriff.png" alt="SHERIFF" class="gun sheriff">
+                    </td>
+                </tr>
+            </table>
+            <!-- SMGs Table -->
+            <table>
+                <tr>
+                    <th scope="row" style="font-family: 'Tungsten', sans-serif; font-size: 400%;" id="wp-name">SMGS</th>
+                    <td>
+                        <img src="Weapons\smgs\stinger.png" alt="STINGER" class="gun stinger">
+                    </td>
+                    <td>
+                        <img src="Weapons\smgs\spectre.png" alt="SPECTRE" class="gun spectre">
+                    </td>
+                </tr>
+            </table>
+            <!-- Shortguns Table -->
+            <table>
+                <tr>
+                    <td>
+                        <img src="Weapons\shortguns\bucky.png" alt="BUCKY" class="gun bucky">
+                    </td>
+                    <th scope="row" style="font-family: 'Tungsten', sans-serif; font-size: 400%;" id="wp-name">SHORTGUNS</th>
+                    <td>
+                        <img src="Weapons\shortguns\judge.png" alt="JUDGE" class="gun judge">
+                    </td>
+                </tr>
+            </table>
+            <!-- Rifles Table -->
+            <table>
+                <tr>
+                    <td>
+                        <img src="Weapons\rifles\bulldog.png" alt="BULLDOG" class="gun bulldog">
+                    </td>
+                    <th scope="row" rowspan="2" style="font-family: 'Tungsten', sans-serif; font-size: 400%;" id="wp-name">RIFLES</th>
+                    <td>
+                        <img src="Weapons\rifles\guardian.png" alt="GUARDIAN" class="gun guardian">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="Weapons\rifles\phantom.png" alt="PHANTOM" class="gun phantom">
+                    </td>
+                    <td>
+                        <img src="Weapons\rifles\vandal.png" alt="VANDAL" class="gun vandal">
+                    </td>
+                </tr>
+            </table>
+            <!-- Sniper Rifles Table -->
+            <table>
+                <tr>
+                    <td>
+                        <img src="Weapons\sniper_rifles\marshal.png" alt="MARSHAL" class="gun marshal">
+                    </td>
+                    <th scope="row" style="font-family: 'Tungsten', sans-serif; font-size: 400%;" id="wp-name">SNIPER RIFLES</th>
+                    <td>
+                        <img src="Weapons\sniper_rifles\operator.png" alt="OPERATOR" class="gun operator">
+                    </td>
+                </tr>
+            </table>
+            <!-- Machine Guns Table -->
+            <table>
+                <tr>
+                    <td>
+                        <img src="Weapons\machine_guns\ares.png" alt="ARES" class="gun ares">
+                    </td>
+                    <th scope="row" style="font-family: 'Tungsten', sans-serif; font-size: 400%;" id="wp-name">MACHINE GUNS</th>
+                    <td>
+                        <img src="Weapons\machine_guns\odin.png" alt="ODIN" class="gun odin">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+    <!-- Container 5 -->
+    <span id="maps"></span> 
+    <h1 class="mapsh1">MAPS</h1>
+    <div class="container5">
+        <div class="container5-text">
+            <p class="c5-text">There are currently a total of 9 playable maps in <span style="font-style: normal; font-family: 'Valorant', sans-serif; color: #ff4655;">vALORaNT</span>. The current EPISODE: EVOLUTION map pool is updated semi-frequently, so that only 7 maps are always currently in rotation.</p><br>
+
+            <p class="c5-text">You can look for more infomations about maps in <span style="font-style: normal; font-family: 'Valorant', sans-serif; color: #ff4655;">vALORaNT</span> on the offcial website of Riot Games:<br>
+            &#8594; <a href="https://playvalorant.com/en-us/maps/" class="lik">https://playvalorant.com/en-us/maps/</a></p><br>
+
+            <p class="c5-text">Or on "<span style="font-style: normal; font-family: 'Valorant', sans-serif; color: #ff4655;">vALORaNT</span> Wiki - The encyclopedia that anyone can edit":<br>
+            &#8594; <a href="https://valorant.fandom.com/wiki/VALORANT_Wiki" class="lik">https://valorant.fandom.com/wiki/VALORANT_Wiki</a></p>
+        </div>
+        <div class="container5-vid">
+            <p style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-style: italic;">Here is a trailer of the latest map: <span style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold; color: #ff4655; font-size: 120%; font-style: normal;">SUNSET</span></p>
+
+            <iframe src="https://www.youtube.com/embed/kmfok5MtWkI?si=IxpRsVQY6-w_mjP8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <!-- Container 6 -->
+    <div class="container6">
+        <!--Newsletter-->
+        <section id="letter" style="font-family: Arial, Helvetica, sans-serif;">
+            <div>
+                <h4 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">SIGN UP FOR NEWSLETTERS!</h4>
+                <p>Get email updates about our <span style="color: rgb(255, 196, 0);">latest products</span> and <span style="color: rgb(255, 196, 0);">game reviews</span>.</p>
+            </div>
+            <div class="nl-form">
+                <input type="email" placeholder="Your Email ID">
+                <button>Sign up</button>
+            </div>
+        </section>
+    
+        <!--FOOTER-->
+        <footer>
+            <div id="footer">
+                <div class="content">
+                    <div class="section abtus">
+                        <h3>ABOUT US</h3>
+                        <p><span style="color: rgb(255, 196, 0);">WEBBING</span> -- a group of 3 university students.</p>
+                    </div>
+                    <div class="section">
+                        <h3>QUICK LINKS</h3>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Products</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="section">
+                        <h3>CONTACT US</h3>
+                        <p><a>Email:</a> info@example.com<br><br>
+                            <a>Phone:</a> +1 (123) 456-7890</p>
+                    </div>
+                    </div>
+                    <div class="bottom">
+                        <p>Non-profitable and used as an educational experience.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
